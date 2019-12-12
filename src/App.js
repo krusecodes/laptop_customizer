@@ -5,6 +5,9 @@ import React, { Component } from 'react';
 import slugify from 'slugify';
 
 import './App.css';
+import HeaderComponent from './HeaderComponent/HeaderComponent';
+// import CustomizeLaptop from './CustomizeLaptop/CustomizeLaptop';
+// import YourCart from '/YourCart/YourCart';
 
 // This object will allow us to
 // easily convert numbers into US dollar values
@@ -97,9 +100,7 @@ class App extends Component {
 
     return (
       <div className="App">
-        <header>
-          <h1>ELF Computing | Laptops</h1>
-        </header>
+        <HeaderComponent />
         <main>
           <form className="main__form">
             <h2>Customize your laptop</h2>
