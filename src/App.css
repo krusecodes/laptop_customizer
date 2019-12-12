@@ -33,10 +33,6 @@ main {
   margin: 0 auto;
 }
 
-.main__form {
-  flex: 4;
-}
-
 .feature {
   padding: 0.8rem;
   padding-top: 0.4rem;
