@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Summary.css'
 import Total from '../Total/Total';
 
 const USCurrencyFormat = new Intl.NumberFormat('en-US', {

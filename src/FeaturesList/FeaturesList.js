@@ -1,5 +1,6 @@
 
 import React, { Component } from 'react';
+import './FeaturesList.css'
 import FeatureOption from '../FeatureOption/FeatureOption';
 
 
